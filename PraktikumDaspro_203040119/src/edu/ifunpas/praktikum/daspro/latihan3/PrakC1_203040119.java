@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PrakC1_203040119 {
 
 	public static void main (String [] args) {
-		Scanner sc = new Scanner ((System.in));
+		Scanner sc = new Scanner (System.in);
 		System.out.println("Masukkan Nilai : ");
 		int nilai = sc.nextInt();
 		
