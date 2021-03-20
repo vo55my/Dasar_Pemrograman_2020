@@ -6,7 +6,7 @@ public class PrakC5_203040119 {
 
 	public static void main (String [] args) {
 		Scanner sc = new Scanner (System.in);
-		System.out.println("Masukkan Nilai Akhir Kuliah");
+		System.out.println("Masukkan Nilai Akhir Kuliah : ");
 		int nilai = sc.nextInt();
 		
 		if (nilai < 0 || nilai > 100) {
