@@ -19,7 +19,7 @@ public class PengulanganNama {
 		System.out.print("Akan Berapa kali Berulang : ");
 		int n = sc.nextInt();
 		String nama;
-		for (int a=1; a<=n; a++) {
+		for (int a = 1; a <= n; a++) {
 			System.out.print("Masukan Nama Anda : ");
 			nama = sc.next();
 			System.out.println(nama);

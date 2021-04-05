@@ -25,13 +25,13 @@ public class LatihanDasarFor {
 	public static void main (String [] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		for (int a=1; a<=10; a++) {
+		for (int a = 1; a <= 10; a++) {
 			System.out.println("Hello World "+ a);
 		}
 		
 		System.out.println("-------------------");
 		
-		for (int b=10; b>=1; b--) {
+		for (int b = 10; b >= 1; b--) {
 			System.out.println("Hello World "+ b);
 		}
 	}

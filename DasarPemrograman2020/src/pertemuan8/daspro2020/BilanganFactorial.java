@@ -34,7 +34,7 @@ public class BilanganFactorial {
 		int faktorial = sc.nextInt();
 		int hasil = 1;
 		
-		for (int a=1; a<= faktorial; a++) {
+		for (int a = 1; a <= faktorial; a++) {
 			System.out.println(hasil + " X " + a);
 			hasil = hasil * a;
 		}
