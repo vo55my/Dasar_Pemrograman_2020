@@ -43,6 +43,7 @@ static Scanner sc = new Scanner(System.in);
 	
 	public static String menu () {
 		String pilihan = "";
+		System.out.println("Selamat Datang di Kalkulator Sederhana ini");
 		System.out.println("Silahkan memilih menu berikut : ");
 		System.out.println("1. Penjumlahan");
 		System.out.println("2. Pengurangan");
@@ -51,23 +52,24 @@ static Scanner sc = new Scanner(System.in);
 		System.out.println("5. Modulus");
 		System.out.println("99. Keluar (Ketik 99)");
 		System.out.println("Menu apakah yang akan anda pilih?");
+		
 		pilihan = sc.next();
 		return pilihan;
 	}
 	
 	public static void main (String [] args) {
-		System.out.println("Selamat Datang di Kalkulator Sederhana ini");
-		System.out.print("Masukkkan Angka 1 = ");
-		int angka1 = sc.nextInt();
-		System.out.print("Masukkkan Angka 2 = ");
-		int angka2 = sc.nextInt();
+		String sMenu = menu();
+		int pilihan = 1;
+		int hasil = 0;
+		double dHasil = 0;
 		
-		while (true) {
-			String sMenu = menu();
-			int hasil = 0;
-			double dHasil = 0;
 		
-		switch (sMenu) {
+		while (pilihan != 99) {
+			System.out.print("Masukkkan Angka 1 = ");
+			int angka1 = sc.nextInt();
+			System.out.print("Masukkkan Angka 2 = ");
+			int angka2 = sc.nextInt();
+			switch (sMenu) {
 		case "1":
 			hasil = penjumlahan (angka1, angka2);
 			System.out.println("Hasil = " + hasil);
