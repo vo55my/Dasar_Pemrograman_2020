@@ -18,7 +18,7 @@ public class LatihanOperator {
 		// Menggunakan operator tambah
 		// Fungsi tambah akan berbeda mengikuti variabelnya
 		
-		System.out.println(a+b);
+		System.out.println(a + b);
 		System.out.println("Hasil jumlah = " + a + b);
 		// Operator + saat bertemu String akan menjadi penggabung
 		System.out.println("Hasil jumlah = " + (a + b));

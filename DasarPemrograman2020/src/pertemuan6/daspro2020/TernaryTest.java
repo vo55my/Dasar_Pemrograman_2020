@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class TernaryTest {
 
 	public static void main (String [] args) {
+		
 		/*
 		 * Ternary biasanya digunakan sebagai statement pengganti if-else
 		 * Merupakan satu baris logical yang menghasilkan dua kemungkinan

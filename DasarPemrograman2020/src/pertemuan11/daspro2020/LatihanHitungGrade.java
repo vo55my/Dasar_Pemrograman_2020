@@ -24,7 +24,6 @@ public class LatihanHitungGrade {
 	
 	public static double hitungNilaiAkhir (double praktikum, double uts, double uas) {
 		double nilai = (praktikum * 30/100) + (uts * 30/100) + (uas * 40/100);
-		
 		return nilai;
 	}
 		

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SwitchCase2 {
 
 	public static void main (String [] args) {
+		
 		/*
 		 * Switch case jika multi selection
 		 * Contoh terdapat 7 bulan yang memiliki jumlah hari 31

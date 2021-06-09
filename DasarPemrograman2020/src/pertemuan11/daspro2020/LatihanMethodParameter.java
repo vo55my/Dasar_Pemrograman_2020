@@ -36,7 +36,6 @@ public class LatihanMethodParameter {
 	
 	//procedure penjumlahan (procedure)
 	public static void oprPenjumlahan (int bil1, int bil2) {	
-		
 		c = bil1 + bil2;
 		System.out.println("Hasil : " + c);
 	}
@@ -54,7 +53,6 @@ public class LatihanMethodParameter {
 	
 	//procedure pengurangan (function)
 	public static int oprPengurangan (int a, int b) {
-		
 		c = a - b;
 		return c;
 	}

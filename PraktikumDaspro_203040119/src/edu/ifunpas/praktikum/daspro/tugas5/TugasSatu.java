@@ -65,9 +65,9 @@ static Scanner sc = new Scanner(System.in);
 		
 		
 		while (pilihan != 99) {
-			System.out.print("Masukkkan Angka 1 = ");
+			System.out.print("Masukkkan Angka 1 : ");
 			int angka1 = sc.nextInt();
-			System.out.print("Masukkkan Angka 2 = ");
+			System.out.print("Masukkkan Angka 2 : ");
 			int angka2 = sc.nextInt();
 			switch (sMenu) {
 		case "1":

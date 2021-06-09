@@ -9,7 +9,7 @@ public class TugasDua {
 		int bilangan = 0;
 		int total = 0;
 		
-		System.out.println("Masukkan Bilangan Bulat : ");
+		System.out.print("Masukkan Bilangan Bulat : ");
 		while (true) {
 			bilangan = sc.nextInt();
 		if (bilangan == 0) {

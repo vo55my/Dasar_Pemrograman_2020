@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ElseIfStatement {
 
 	public static void main (String [] args) {
+		
 		/*
 		 * Kita akan mempelajari multi cause effect, biasa disebut else if statement
 		 * Formatnya adalah :

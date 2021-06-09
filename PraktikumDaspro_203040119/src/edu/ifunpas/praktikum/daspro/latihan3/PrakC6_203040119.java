@@ -6,7 +6,7 @@ public class PrakC6_203040119 {
 
 	public static void main (String [] args) {
 		Scanner sc = new Scanner (System.in);
-		System.out.println("Masukkan Grade : ");
+		System.out.print("Masukkan Grade : ");
 		String grade = sc.next();
 		
 		switch (grade) {

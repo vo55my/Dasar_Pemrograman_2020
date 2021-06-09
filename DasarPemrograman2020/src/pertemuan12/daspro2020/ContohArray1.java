@@ -27,7 +27,7 @@ public class ContohArray1 {
 	
 	public static void inputNama() {
 		for (int elm = 0; elm < arrNama.length; elm++) {
-			System.out.println("Masukkan Nama Mahasiswa ke - " + elm);
+			System.out.print("Masukkan Nama Mahasiswa ke - " + elm + " : ");
 			arrNama[elm] = sc.next();
 		}
 	}

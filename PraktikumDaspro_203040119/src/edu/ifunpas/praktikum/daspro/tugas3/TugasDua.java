@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class TugasDua {
 
 	public static void main (String [] args) {
-		Scanner sc = new Scanner (System.in);
-		System.out.println("Masukkan Angka : ");
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Masukkan Angka : ");
 		int angka = sc.nextInt();
 		
 		switch (angka) {

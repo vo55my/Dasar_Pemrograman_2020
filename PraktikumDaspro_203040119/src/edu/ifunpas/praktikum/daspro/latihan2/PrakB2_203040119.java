@@ -13,7 +13,7 @@ public class PrakB2_203040119 {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         
-        System.out.println("Inputkan Nama : ");
+        System.out.print("Inputkan Nama : ");
         nama = br.readLine();
         
         System.out.println("Nama kamu adalah : " + nama);

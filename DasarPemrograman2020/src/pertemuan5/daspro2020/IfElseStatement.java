@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class IfElseStatement {
 
 	public static void main (String [] args) {
+		
 		/*
 		 * Kita akan membuat contoh program dua cause effect
 		 * Sehingga menggunakan if else dengan format :

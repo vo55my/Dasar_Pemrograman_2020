@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SwitchCase1 {
 
 	public static void main (String [] args) {
+		
 		/*
 		 * Membuat layanan menu pembelian paket internet
 		 * Menggunakan switch case

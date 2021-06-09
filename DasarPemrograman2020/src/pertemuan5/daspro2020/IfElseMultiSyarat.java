@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class IfElseMultiSyarat {
 
 	public static void main (String [] args) {
+		
 		/*
 		 * Kita akan membuat pengkondisian if dengan multi syarat
 		 * Multi Syarat = suatu blok yang memiliki syarat > 1

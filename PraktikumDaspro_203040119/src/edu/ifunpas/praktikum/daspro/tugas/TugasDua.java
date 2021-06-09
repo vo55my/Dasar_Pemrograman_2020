@@ -6,6 +6,6 @@ public class TugasDua {
 		int a = (int) 20.1;
 		float b = 30.4f;
 		
-		System.out.println("Hasil penjumlahan dari a + b = " + (a+b));
+		System.out.println("Hasil penjumlahan dari a + b = " + (a + b));
 	}
 }

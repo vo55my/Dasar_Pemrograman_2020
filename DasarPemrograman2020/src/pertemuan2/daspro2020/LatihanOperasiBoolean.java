@@ -23,10 +23,10 @@ public class LatihanOperasiBoolean {
 */		
 		// Untuk String
 		String huruf1, huruf2;
-		System.out.println("Masukan Huruf 1 : ");
-		huruf1=sc.next();
-		System.out.println("Masukan Huruf 2 : ");
-		huruf2=sc.next();
+		System.out.print("Masukan Huruf 1 : ");
+		huruf1 = sc.next();
+		System.out.print("Masukan Huruf 2 : ");
+		huruf2 = sc.next();
 		
 		// Penggunaan ignoreCase perlu diperhatikan, apakah perlu membedakan huruf besar dan kecil
 		System.out.println(huruf1.compareToIgnoreCase(huruf2)<0);

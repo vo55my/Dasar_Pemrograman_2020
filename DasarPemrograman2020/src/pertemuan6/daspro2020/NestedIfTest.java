@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class NestedIfTest {
 
 	public static void main (String [] args) {
+		
 		/*
 		 * Nested if merupakan pembuatan if dengan multi-level pengkondisian
 		 * Dengan kata lain bagaimana membuat pengkondisian didalam suatu pengkondisian

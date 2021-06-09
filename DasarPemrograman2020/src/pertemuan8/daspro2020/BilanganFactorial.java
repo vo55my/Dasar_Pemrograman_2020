@@ -25,7 +25,6 @@ public class BilanganFactorial {
 		   8! = 1 x 2 x 3 x 4 x 5 x 6 x 7 x 8 = 40320
 		   9! = 1 x 2 x 3 x 4 x 5 x 6 x 7 x 8 x 9 = 362880
 		   10! = 1 x 2 x 3 x 4 x 5 x 6 x 7 x 8 x 9 x 10 = 3628800
-		   
 		 */
 	
 	public static void main (String [] args) {
@@ -38,7 +37,6 @@ public class BilanganFactorial {
 			System.out.println(hasil + " X " + a);
 			hasil = hasil * a;
 		}
-		
-		System.out.print("Hasilnya adalah "+ hasil);
+		System.out.println("Hasilnya adalah "+ hasil);
 	}
 }

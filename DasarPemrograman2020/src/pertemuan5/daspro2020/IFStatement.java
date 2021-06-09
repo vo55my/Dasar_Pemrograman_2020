@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class IFStatement {
 
 	public static void main (String [] args) {
+		
 		/*
 		 * Kita akan membuat contoh program satu cause effect
 		 * Sehingga menggunakan if dengan format :

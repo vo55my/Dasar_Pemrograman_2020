@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 public class LatihanInputBufferedReader {
 
 	public static void main (String [] args) {
+		
 		/*
 		 * Menggunakan BufferedReader
 		 * Lebih kuno dari Scanner

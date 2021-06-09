@@ -25,6 +25,7 @@ public class LoopMenu {
 			System.out.println("3. Paket internet");
 			System.out.println("0. Keluar");
 			menu = sc.nextInt();
+			
 			switch (menu) {
 			case 1 : System.out.println("Isi ulang pulsa berhasil"); break;
 			case 2 : System.out.println("Isi ulang kuota internet berhasil"); break;

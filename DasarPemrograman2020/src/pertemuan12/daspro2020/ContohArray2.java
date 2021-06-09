@@ -9,14 +9,14 @@ public class ContohArray2 {
 	static Scanner sc = new Scanner(System.in);
 	
 	public static void initArray() {
-		System.out.println("Masukkan jumlah index yang anda inginkan");
+		System.out.print("Masukkan jumlah index yang anda inginkan : ");
 		int index = sc.nextInt();
 		arrNama = new String [index];
 	}
 	
 	public static void inputNama() {
 		for (int elm = 0; elm < arrNama.length; elm++) {
-			System.out.println("Masukkan Nama Mahasiswa ke - " + elm);
+			System.out.print("Masukkan Nama Mahasiswa ke - " + elm + " : ");
 			arrNama[elm] = sc.next();
 		}
 	}

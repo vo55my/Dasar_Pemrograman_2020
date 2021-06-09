@@ -8,15 +8,18 @@ public class TugasSatu {
 		Scanner sc = new Scanner(System.in);
         float tinggiBadan, beratBadan, BMI, cm;
         
-        System.out.print("Akan Berapa kali Berulang : "); int n = sc.nextInt();
+        System.out.print("Akan Berapa kali Berulang : ");
+        int n = sc.nextInt();
         System.out.println("");
         
         for (int a = 1; a <= n; a++) {
-        	System.out.print("Masukkan Berat Badan Anda (kg)  : "); beratBadan = sc.nextInt();
-        	System.out.print("Masukkan Tinggi Badan Anda (cm) : "); cm = sc.nextInt();
+        	System.out.print("Masukkan Berat Badan Anda (kg) : ");
+        	beratBadan = sc.nextInt();
+        	System.out.print("Masukkan Tinggi Badan Anda (cm) : ");
+        	cm = sc.nextInt();
         	
 	        tinggiBadan = cm/100;
-	        BMI = beratBadan/(tinggiBadan*tinggiBadan);
+	        BMI = beratBadan/(tinggiBadan * tinggiBadan);
 	        System.out.println("Body Mass Index anda adalah : " + BMI);
 	        System.out.println("");
 	        

@@ -7,9 +7,9 @@ public class NomorDua {
 	public static void main (String [] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Kehadiran : ");
+		System.out.print("Kehadiran : ");
 		int kehadiran = sc.nextInt();
-		System.out.println("Nilai Akhir : ");
+		System.out.print("Nilai Akhir : ");
 		int nilaiAkhir = sc.nextInt();
 		
 		if ((kehadiran >= 0) && (kehadiran <= 100)) {
