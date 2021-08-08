@@ -6,7 +6,13 @@ public class NilaiAkhir {
 
 	public static void main (String [] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("NRP : ");
+		
+		System.out.print("Jumlah Mahasiswa : ");
+        int n = sc.nextInt();
+        System.out.println();
+        
+        for (int a = 1; a <= n; a++) {
+        System.out.print("NRP : ");
 		String nrp = sc.next();
 		System.out.print("Nilai UTS : ");
 		double uts = sc.nextDouble();
@@ -18,6 +24,7 @@ public class NilaiAkhir {
 		double tugas = sc.nextDouble();
 		
 		double nilai = hitungNilaiAkhir(uts, uas, praktikum, tugas);
+		System.out.println();
 		System.out.println("NRP : " + nrp);
 		System.out.println("Nilai UTS : " + uts);
 		System.out.println("Nilai UAS : " + uas);
@@ -25,6 +32,8 @@ public class NilaiAkhir {
 		System.out.println("Nilai Tugas : " + tugas);
 		System.out.print("Nilai Akhir = " + nilai + "\n Sehingga menghasilkan index ");
 		hitungGrade(nilai);
+		System.out.println();
+        }
 	}
 	
 	public static double hitungNilaiAkhir (double uts, double uas, double praktikum, double tugas) {
